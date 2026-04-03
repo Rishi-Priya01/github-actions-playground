@@ -1,0 +1,21 @@
+name: Hello GitHub Actions
+
+on:
+  push:
+    branches: [main]   # Trigger on push to main
+  workflow_dispatch:    # Manual trigger option
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Print hello message
+        run: echo "Hello from GitHub Actions!"
+
+      - name: Optional Python script
+        run: |
+          python -c "print('Hello, Python in GitHub Actions!')"
