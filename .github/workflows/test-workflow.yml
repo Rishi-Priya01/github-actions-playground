@@ -18,4 +18,4 @@ jobs:
 
       - name: Optional Python script
         run: |
-          python -c "print('Hello, Python in GitHub Actions!')"
+          python -c "print('Hello!! Let's Explore!')"
