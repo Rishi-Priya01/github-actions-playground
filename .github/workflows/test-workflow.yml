@@ -18,4 +18,4 @@ jobs:
 
       - name: Optional Python script
         run: |
-          python -c 'print("Hello!! Let's Explore!")'
+          python -c "print('Hello!! Let's Explore!')"
