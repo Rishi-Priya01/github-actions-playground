@@ -2,7 +2,7 @@ from behave import given, when, then
 
 @given("I launch the mobile app")
 def step_launch_app(context):
-    print("Launching the mobile app...")
+    print("Launching app...")
 
 @when("I enter valid credentials")
 def step_enter_credentials(context):
