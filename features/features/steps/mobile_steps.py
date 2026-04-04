@@ -6,7 +6,7 @@ def launch_app(context):
 
 @when("I enter valid credentials")
 def enter_credentials(context):
-    print("Enter username and password...")
+    print("Enter crendentials")
 
 @then("I should see the home screen")
 def step_verify_home(context):
