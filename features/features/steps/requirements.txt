@@ -1,3 +1,0 @@
-behave==1.2.7
-Appium-Python-Client==2.4.0
-behave-html-formatter==2.5.0
