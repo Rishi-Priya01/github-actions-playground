@@ -32,7 +32,7 @@ jobs:
           echo "<html><body><h1>Mobile Test Report</h1><p>All tests passed ✅</p></body></html>" > reports/html/report.html
 
       - name: Upload Test Report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: mobile-report
           path: reports/html/report.html
